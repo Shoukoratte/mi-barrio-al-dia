@@ -25,6 +25,7 @@ Each ADR should include:
 |---|---|---|
 | ADR-001 | Zero-cost development and initial deployment strategy | Accepted |
 | ADR-002 | Internationalization strategy | Proposed |
+| ADR-003 | [Repository Strategy — Conventional Monorepo](ADR-003-repository-strategy.md) | Proposed |
 
 ## Guidelines
 
@@ -35,10 +36,8 @@ Each ADR should include:
 
 ## Planned Records
 
-- ADR-001: Zero-cost development strategy.
-- ADR-002: Internationalization and localization.
-- ADR-003: Backend architecture.
-- ADR-004: Geospatial data persistence.
-- ADR-005: Authentication and authorization.
+- ADR-004: Backend architecture.
+- ADR-005: Geospatial data persistence.
+- ADR-006: Authentication and authorization.
 
 These records will be created and refined as the project progresses.
