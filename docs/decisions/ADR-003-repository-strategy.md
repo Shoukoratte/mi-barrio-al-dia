@@ -1,6 +1,6 @@
 # ADR-003: Repository Strategy — Conventional Monorepo
 
-**Status:** Proposed  
+**Status:** Accepted  
 **Date:** 2026-10-14  
 **Project:** Mi barrio al día
 
@@ -103,6 +103,15 @@ We will revisit this decision if:
 
 ## Current Outcome
 
-**Proposed — pending project lead acceptance and asynchronous contributor feedback.**
+**Accepted — 2026-10-14**
 
-No Nx or Turborepo dependency will be introduced during initial repository setup.
+The project lead has approved the conventional monorepo strategy
+for the initial MVP.
+
+The team will use Maven for the backend, npm for the frontend,
+and GitHub Actions for automation.
+
+Nx and Turborepo will not be introduced initially.
+This decision may be revisited if project requirements change.
+
+Contributor feedback may be incorporated asynchronously.
